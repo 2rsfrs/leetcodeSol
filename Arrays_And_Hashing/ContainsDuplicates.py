@@ -16,4 +16,3 @@ class Solution(object):
 
         # the entire list has been checked and no dupes have been found so return false
         return False
-    
