@@ -16,3 +16,7 @@ class Solution(object):
 
         # the entire list has been checked and no dupes have been found so return false
         return False
+    
+    def betterSoln(self, nums):
+        # make nums a set and check the len of it
+        return len(set(nums)) != len(nums)
